@@ -2,20 +2,8 @@
 
 This project combines a **React-based frontend** with a **FastAPI backend** to create a dynamic, user-friendly pipeline builder. Users can design, connect, and manage nodes within a flowchart-style interface, while the backend validates pipeline structures as Directed Acyclic Graphs (DAGs). 
 
-## Table of Contents
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-  - [Frontend Setup](#frontend-setup)
-  - [Backend Setup](#backend-setup)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Components Overview](#components-overview)
-
----
-
-## Features ✨
+## Features 
 
 - **Frontend**:
   - Create, connect, and manage pipeline nodes
@@ -29,9 +17,9 @@ This project combines a **React-based frontend** with a **FastAPI backend** to c
   - Pipeline structure validation
   - Directed Acyclic Graph (DAG) detection for pipelines
 
----
 
-## Technologies Used 💻
+
+## Technologies Used 
 
 - **Frontend**:
   - **React**: For building the user interface
@@ -44,24 +32,23 @@ This project combines a **React-based frontend** with a **FastAPI backend** to c
   - **FastAPI**: For handling HTTP requests and API creation
   - **Pydantic**: For data validation and parsing
 
----
 
-## Installation 🚀
+## Installation and Setup
 
 ### Frontend Setup
 
-1. Clone the repository:
+**1. Clone the repository:**
    ```bash
-   git clone https://github.com/Subrat29/pipeline-builder-frontend.git
-   cd pipeline-builder-frontend
+   git clone https://github.com/siddharthgupta5/Frontend-Technical-Assignment.git
+   cd frontend
    ```
 
-2. Install the necessary dependencies:
+**2. Install the necessary dependencies:**
    ```bash
    npm install
    ```
 
-3. Start the development server:
+**3. Start the development server:**
    ```bash
    npm start
    ```
@@ -69,24 +56,23 @@ This project combines a **React-based frontend** with a **FastAPI backend** to c
 
 ### Backend Setup
 
-1. Clone the repository:
+**1. Open a new terminal and navigate to the backend directory:**
    ```bash
-   git clone https://github.com/Subrat29/backend.git
    cd backend
    ```
 
-2. Create a virtual environment:
+**2. Create a virtual environment:**
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
-3. Install dependencies:
+**3. Install dependencies:**
    ```bash
    pip install fastapi uvicorn pydantic
    ```
 
-4. Run the FastAPI application:
+**4. Run the FastAPI application:**
    ```bash
    uvicorn main:app --reload
    or 
@@ -94,9 +80,7 @@ This project combines a **React-based frontend** with a **FastAPI backend** to c
    ```
    - The API will be available at `http://127.0.0.1:8000`.
 
----
-
-## Usage 🧩
+## Usage 
 
 - **Frontend**:
   - **Creating Nodes**: Drag and drop nodes from the toolbar onto the canvas.
@@ -109,9 +93,9 @@ This project combines a **React-based frontend** with a **FastAPI backend** to c
 - **Backend**:
   - The backend validates the structure of the pipeline, ensuring it forms a DAG.
 
----
 
-## API Endpoints 📡
+
+## API Endpoints 
 
 ### Parse Pipeline
 
@@ -138,9 +122,9 @@ This project combines a **React-based frontend** with a **FastAPI backend** to c
     }
     ```
 
----
 
-## Components Overview 🧱
+
+## Components Overview 
 
 ### Frontend Components
 
@@ -155,6 +139,6 @@ This project combines a **React-based frontend** with a **FastAPI backend** to c
 - **FullscreenButton**: Button to toggle fullscreen mode.
 - **GridSizeSlider**: Slider to adjust the grid size on the canvas.
 
----
 
-Enjoy building and connecting nodes effortlessly with **Pipeline Builder**! 🎉
+
+
