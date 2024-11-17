@@ -1,0 +1,24 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-flow__node-default {
+  font-size: 12px;
+  background: white;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.react-flow__handle {
+  width: 8px;
+  height: 8px;
+  background: white;
+  border: 2px solid #6966FF;
+  border-radius: 50%;
+}
+
+.react-flow__handle:hover {
+  background: #6966FF;
+}
